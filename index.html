@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certificate Verification - Demo</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      background: #f2f2f2;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #333;
+    }
+    .certificate {
+      width: min(100%, 730px);
+      background: #fff;
+      padding: 54px 34px 34px;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, .12);
+    }
+    h1 {
+      margin: 0 0 22px;
+      text-align: center;
+      font-size: 26px;
+      font-weight: 700;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 16px;
+    }
+    th, td {
+      padding: 13px 12px;
+      border-bottom: 1px solid #d9d9d9;
+      text-align: left;
+    }
+    th {
+      width: 34%;
+      background: #f7f7f7;
+      font-weight: 700;
+    }
+    .verified-image {
+      text-align: center;
+      height: 30px;
+      padding-top: 3px;
+      color: #444;
+    }
+    .status {
+      margin: 4px 0 0;
+      text-align: center;
+      color: #16813b;
+      font-size: 20px;
+      font-weight: 700;
+    }
+    .demo-note {
+      margin: 20px 0 0;
+      text-align: center;
+      font-size: 11px;
+      color: #999;
+    }
+    @media (max-width: 520px) {
+      body { padding: 14px; }
+      .certificate { padding: 32px 16px 24px; }
+      h1 { font-size: 22px; }
+      th, td { padding: 12px 8px; font-size: 14px; }
+      .status { font-size: 17px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="certificate">
+    <h1>Certificate Verification</h1>
+    <table aria-label="Certificate details">
+      <tr>
+        <th>Name:</th>
+        <td>MD. PARVEJUL ISLAM AMIN</td>
+      </tr>
+      <tr>
+        <th>NID Number:</th>
+        <td>9577535363</td>
+      </tr>
+    </table>
+    <div class="verified-image" aria-label="Verification image placeholder">
+      
+      <span style="color:#16813b;"> <img src="" alt=""> </span> Verified
+    </div>
+    
+    <p class="status">Vaccination Certificate Verified</p>
+    
+  </main>
+</body>
+</html>
